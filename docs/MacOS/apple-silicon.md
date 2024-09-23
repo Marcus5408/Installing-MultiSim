@@ -1,4 +1,4 @@
-# Apple Silicon (2020+) MacBook
+# Apple Silicon MacBooks
 
 ## Table of Contents
 
