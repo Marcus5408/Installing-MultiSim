@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import AppleIntelSvg from "@site/static/img/apple-intel.svg";
+import { useColorMode } from "@docusaurus/theme-common";
 
 type InstallMethodItem = {
   title: string;
@@ -42,10 +44,21 @@ const InstallMethodList: InstallMethodItem[] = [
 ];
 
 function InstallMethods({ title, Svg, description }: InstallMethodItem) {
+  const { colorMode } = useColorMode();
+  const svgColor = colorMode === "dark" ? "#ffffff" : "#010101";
+
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Svg
+          className={styles.featureSvg}
+          role="img"
+        />
+        <style>{`
+          .cls-1 {
+            fill: ${svgColor};
+          }
+        `}</style>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
