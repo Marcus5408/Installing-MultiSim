@@ -43,21 +43,21 @@ Homebrew is a package manager for macOS that allows you to install software and 
     To open a Terminal window, press `Command + Space` to open up Spotlight Search, type `Terminal`, and press `Enter`.
     :::
 
-1. Run `brew --version` to verify that Homebrew is installed. If you see a version number, Homebrew is installed correctly and you can proceed. If you see an error message, please refer to the [Installing Homebrew](#installing-homebrew) section.
-2. Copy and paste the following command into the terminal and press `Enter`:
+2. Run `brew --version` to verify that Homebrew is installed. If you see a version number, Homebrew is installed correctly and you can proceed. If you see an error message, please refer to the [Installing Homebrew](#11-installing-homebrew) section.
+3. Copy and paste the following command into the terminal and press `Enter`:
 
     ```sh
     brew install utm
     ```
 
-3. Wait for the installation to complete.
-4. Copy and paste the following command into the terminal and press `Enter`:
+4. Wait for the installation to complete.
+5. Copy and paste the following command into the terminal and press `Enter`:
 
     ```sh
     brew install crystalfetch
     ```
 
-5. Wait for the installation to complete.
+6. Wait for the installation to complete.
 
 ### 2. Setting Up the Virtual Machine
 
@@ -73,7 +73,7 @@ To install Windows on the virtual machine, you will need a Windows ISO file. You
 6. Press `Download...` to download the Windows ISO file
 7. Select your preferred download location (your `Downloads` folder is probably the default and good enough) and press `Move`.
 
-![CrystalFetch](../../assets/images/crystalfetch.png)
+![CrystalFetch](./img/crystalfetch.png)
 
 #### 2.2. Creating the Virtual Machine
 
@@ -97,7 +97,7 @@ To install Windows on the virtual machine, you will need a Windows ISO file. You
 
 #### 2.3. Configuring the Virtual Machine
 
-1. Click on the virtual machine you just created and press the configure button, which is next to the play button in the upper right corner.
+1. Click on the virtual machine you just created and press the configure button ![Configure Button](./img/slider.horizontal.3.svg), which is next to the play button in the upper right corner.
 2. Click on `System` in the left sidebar.
 3. Enable `Force Multicore`.
 4. Click on `Display` in the left sidebar.
@@ -153,13 +153,13 @@ Windows will work fine without activation, but it's best to activate it to remov
 2. Open the Start menu and search for `Powershell`.
 3. Run the following command in Powershell:
 
-    ```pwsh
+    ```sh
     irm https://get.activated.win | iex
     ```
 
     If that command doesn't work, use the following command:
 
-    ```pwsh
+    ```sh
     irm https://massgrave.dev/get | iex
     ```
 
@@ -221,38 +221,6 @@ AtlasOS is a modification of Windows that removes all the bloatware and telemetr
 6. Click on the settings button in the upper right corner, next to the play button.
 7. Scroll down in the left sidebar and delete the two IDE drives by Control-clicking on them and selecting `Delete`.
 
-### 4. Installing MultiSim
-
-#### 4.1. Making an NI Account
-
-One of the requirements to download MultiSim is to have an NI Account. If you already have an NI account, you can skip this section. If you don't have an NI account, follow these steps to create one on your Mac, not in the virtual machine:
-
-1. Go to [this link](https://www.ni.com/en-us/support/downloads/software-products/download.multisim.html#369660).
-2. Press the "Log in to download" button.
-3. Click on the "Create Account>" link.
-4. Fill in the required information and press "Create Account". For `Role`, select `Student`. Use your own, personal, non-school email address.
-5. Check your email for a verification email from NI. Click on the link in the email to verify your account and press `Continue`.
-6. Return to your browser and log in to your NI account by returning to the [download page](https://www.ni.com/en-us/support/downloads/software-products/download.multisim.html#369660) and pressing the "Log in to download" button.
-
-#### 4.2. Installing MultiSim
-
-With a NI Account, you can now install MultiSim on your virtual machine:
-
-1. Turn on your virtual machine by opening UTM and clicking on the virtual machine you created, then pressing the play button.
-2. Log in to your virtual machine.
-3. If you decided to install AtlasOS in the previous steps, launch Brave (the browser that comes with AtlasOS) and go to the [download page](https://www.ni.com/en-us/support/downloads/software-products/download.multisim.html#369660) to download MultiSim. Otherwise, use Microsoft Edge to go to the download page.
-4. Log in to your NI account and download the MultiSim installer.
-5. Launch the installer and follow the instructions to install MultiSim.
-    > :information_source: **Note:** When you get to the `Installing Circuit Design Suite` screen, select `NI Certificates Installer`. This will make installing other NI software easier, which the installer will also install alongside MultiSim.
-    - When prompted to enable the NI Update Service, select `Yes`.
-6. Close the activation window that pops up after the installation is complete, then press the `Restart Now` button in the installer.
-
-#### 4.3. Activating MultiSim
-
-1. Launch MultiSim.
-
-> :information_source: **Note:** Additional information on activating MultiSim will be added in the future.
-
 ### 5. Conclusion
 
-Congratulations! You have successfully set up a virtual machine on your Apple Silicon MacBook to run Windows and installed MultiSim. You can now use MultiSim on your MacBook without any issues. If you have any questions or need help with any of the steps, feel free to ask in the 
+Congratulations! You have successfully set up a virtual machine on your Apple Silicon MacBook to run Windows and installed MultiSim. You can now use MultiSim on your MacBook without any issues. If you have any questions or need help with any of the steps, feel free to ask in the
