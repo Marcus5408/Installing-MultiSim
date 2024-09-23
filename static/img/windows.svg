@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" version="1.1" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00adef;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="Layer_1">
+      <path class="cls-1" d="M20.1,28.5l24.4-3.3v23.6s-24.4.1-24.4.1v-20.4ZM44.5,51.5v23.6s-24.4-3.4-24.4-3.4v-20.4s24.4.2,24.4.2ZM47.5,24.7l32.4-4.7v28.4l-32.4.3v-24ZM79.9,51.7v28.3s-32.4-4.6-32.4-4.6v-23.8s32.4,0,32.4,0Z"/>
+    </g>
+  </g>
+</svg>
