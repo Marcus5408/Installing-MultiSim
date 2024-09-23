@@ -38,23 +38,26 @@ Homebrew is a package manager for macOS that allows you to install software and 
 #### 1.2 Other Prerequisites
 
 1. Close the Terminal window and open a new one.
-    > :information_source: **If you don't remember how to open a terminal window:** Press `Command + Space` to open Spotlight Search, type `Terminal`, and press `Enter`.
 
-2. Run `brew --version` to verify that Homebrew is installed. If you see a version number, Homebrew is installed correctly and you can proceed. If you see an error message, please refer to the [Installing Homebrew](#installing-homebrew) section.
-3. Copy and paste the following command into the terminal and press `Enter`:
+    :::tip
+    To open a Terminal window, press `Command + Space` to open up Spotlight Search, type `Terminal`, and press `Enter`.
+    :::
+
+1. Run `brew --version` to verify that Homebrew is installed. If you see a version number, Homebrew is installed correctly and you can proceed. If you see an error message, please refer to the [Installing Homebrew](#installing-homebrew) section.
+2. Copy and paste the following command into the terminal and press `Enter`:
 
     ```sh
     brew install utm
     ```
 
-4. Wait for the installation to complete.
-5. Copy and paste the following command into the terminal and press `Enter`:
+3. Wait for the installation to complete.
+4. Copy and paste the following command into the terminal and press `Enter`:
 
     ```sh
     brew install crystalfetch
     ```
 
-6. Wait for the installation to complete.
+5. Wait for the installation to complete.
 
 ### 2. Setting Up the Virtual Machine
 
@@ -69,6 +72,8 @@ To install Windows on the virtual machine, you will need a Windows ISO file. You
 5. Select any language you prefer, or leave it as default, which should be `English (United States)`
 6. Press `Download...` to download the Windows ISO file
 7. Select your preferred download location (your `Downloads` folder is probably the default and good enough) and press `Move`.
+
+![CrystalFetch](../../assets/images/crystalfetch.png)
 
 #### 2.2. Creating the Virtual Machine
 
