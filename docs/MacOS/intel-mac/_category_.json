@@ -1,8 +1,8 @@
 {
-  "label": "🪟 Windows",
+  "label": "Intel-Based Mac",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "slug": "windows"
+    "slug": "intel-mac"
   }
 }
