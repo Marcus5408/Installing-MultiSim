@@ -1,8 +1,8 @@
 {
-  "label": "Intel-Based Mac",
+  "label": "Boot Camp Method",
   "position": 3,
   "link": {
     "type": "generated-index",
-    "slug": "intel-mac"
+    "slug": "boot-camp"
   }
 }
