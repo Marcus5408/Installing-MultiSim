@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Installing MultiSim",
+  title: "Installing MultiSim for PLTW Digital Electronics",
   tagline: "Making it easy to install MultiSim",
   favicon: "img/favicon.ico",
 
