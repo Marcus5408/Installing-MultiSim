@@ -16,7 +16,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Marcus5408", // Usually your GitHub org/user name.
-  projectName: "Installing-MultiSim", // Usually your repo name.
+  projectName: "MultiSim-Guide", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/Marcus5408/Installing-MultiSim",
+            "https://github.com/Marcus5408/MultiSim-Guide",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -64,7 +64,7 @@ const config: Config = {
           label: "Tutorial",
         },
         {
-          href: "https://github.com/Marcus5408/Installing-MultiSim",
+          href: "https://github.com/Marcus5408/MultiSim-Guide",
           label: "GitHub",
           position: "right",
         },
