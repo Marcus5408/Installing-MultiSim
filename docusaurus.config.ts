@@ -72,6 +72,34 @@ const config: Config = {
     },
     footer: {
       style: "dark",
+      links: [
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Tutorial",
+              to: "/docs/intro",
+            },
+          ],
+        },
+        {
+          title: "Need Help?",
+          items: [
+            {
+              label: "GitHub Discussions",
+              href: "https://github.com/Marcus5408/MultiSim-Guide/discussions",
+            },
+            {
+              label: "Instagram DMs",
+              href: "https://instagram.com/matcha.vcf",
+            },
+            {
+              label: "Email Me",
+              href: "mailto:issac@matchatea.dev",
+            }
+          ],
+        }
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Matcha Software. Built with Docusaurus. Not affiliated, sponsored, or endorsed by National Instruments.`,
     },
     prism: {

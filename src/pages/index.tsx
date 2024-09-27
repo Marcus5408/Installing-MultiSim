@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title="MultiSim Install Guide"
-      description="Description will go into a meta tag in <head />">
+      description="An easy-to-follow guide for installing MultiSim for use in a PLTW Digital Electronics class.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
