@@ -96,7 +96,7 @@ const config: Config = {
             },
             {
               label: "Instagram DMs",
-              href: "https://instagram.com/camuise.png",
+              href: "https://instagram.com/49dividedby51",
             },
             {
               label: "Email Me",
